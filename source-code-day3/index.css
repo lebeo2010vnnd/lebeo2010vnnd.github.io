@@ -21,7 +21,7 @@ h1{
 .abc{
     text-align: center;
     font-size: 18px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     
     
 }
@@ -39,15 +39,12 @@ h1{
     margin-left: 60%;
     margin-top: 15px;
     font-size: 18px;
+    text-align: justify;
 
 }
-.bcc{
-    margin-left: 25px;
-    text-transform: capitalize;
-    font-size: 18px;
-    margin-top: 10px;
+
     
-}
+
 .cd{
     text-align: center;
     margin-left: 60%;

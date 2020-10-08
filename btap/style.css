@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f7fa;
+    color: #464646;
+    
+}
+.container{
+    width: 80%;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+.abc{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.abc img{
+    width: 130px;
+    height: 30px;
+}
+.acb{
+    display: flex;
+    flex-direction: row;
+}
+.acb img{
+    width: 20%;
+}

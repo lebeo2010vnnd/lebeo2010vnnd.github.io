@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thuchanh</title>
+    <style>
+        *{
+            margin: 0px;
+            box-sizing: border-box;
+        }
+       
+        .div1 {
+            width: 30%;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            margin: 50px;
+            box-shadow: 0 1px 4px ;
+            border-radius: 4px;
+            background-color: #ffffff;
+            }
+        figure{
+            width: 100%;
+            height: 80%;
+            overflow: hidden;
+        }
+        img{
+            width: 100%;
+            transition-property: all;
+            transition-duration: 2s;
+            object-fit: cover;
+            
+        }
+        .div1 img:hover{
+            transform: scale(1.1);
+        }
+        figcaption{
+            height: 20%;
+            font-size: 20px;
+            font-weight: 500;
+            color: gray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition-property: all;
+            transition-duration: 2s;
+        }
+         .div1:hover img{ 
+            transform: scale(1.2);
+         } 
+         .div1:hover figcaption{
+             color:red;
+         }
+
+
+
+
+         .div2 {
+            width: 30%;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            margin: 50px;
+            box-shadow: 0 1px 4px ;
+            border-radius: 4px;
+            background-color: #ffffff;
+            }
+         .div2 img:hover{
+            
+             transform: scale(1.2);
+             opacity: 0.8;
+         }   
+
+        
+        
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <figure>
+            <img src="https://mtrend.vn/wp-content/uploads/2016/06/hinh-anh-naruto-3d-dep.jpg" alt="anh" >
+           
+        </figure>
+        <figcaption>Ảnh naruto</figcaption>
+        
+        
+        
+    </div>
+    <div class="div2">
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLT59hVd9IJPAOOjuNqM93omD7o-N8jM0VzA&usqp=CAU" alt="anh">
+        </figure>
+        <figcaption>Ảnh đẹp</figcaption>
+    </div>
+
+
+</body>
+
+</html>

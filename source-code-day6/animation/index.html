@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .div1{
+            width: 100px;
+            height: 100px;
+            background-color: indianred;
+            transition-property: width height  ;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out ;
+            transition-delay: 100ms;
+
+            transition: background-color 0 2s linear;
+            
+
+        }
+        
+        .div1:hover{
+             width: 200px; 
+            height: 200px;
+             border-radius: 100px; 
+            background-color: darkorange;
+            
+        }
+    </style>
+</head>
+<body>
+   <div class="div1">
+
+   </div> 
+</body>
+</html>

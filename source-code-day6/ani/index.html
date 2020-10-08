@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+
+    <style>
+
+        *{
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .div1{
+            width: 100%;
+            height: 50px;
+            background-color: pink;
+            animation-name: many-color;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            
+        }
+        
+        
+        @keyframes change-color {
+            from{
+                background-color: pink;
+            }
+            from{
+                background-color: powderblue;
+            }
+        }
+        @keyframes many-color{
+            10%{
+                background-color: purple;
+                
+            }
+            20%{
+                background-color: peachpuff;
+            }
+            30%{
+                background-color: palegreen;
+            }
+            40%{
+                background-color: orangered;
+            }
+            50%{
+                background-color: teal;
+            }
+        }
+        .div2 {
+            padding-top: 30px;
+            padding-left: 300px;
+            
+        }
+        img{
+            color: hotpink;
+        }
+        @keyframes colorr{
+            from{
+                background-color: hotpink;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        
+    </div>
+    <div class="div2">
+        <img src="https://vnreview.vn/image/19/45/74/1945741.jpg?t=1559311281451" alt="anh">
+    </div>
+</body>
+</html>

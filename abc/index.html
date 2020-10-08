@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        * {
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .anh {
+            width: 30%;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            margin: 50px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 4px;
+            background-color: #fff;
+        }
+
+        figure {
+            width: 100%;
+            height: 90%;
+            overflow: hidden;
+        }
+
+        img {
+            width: 100%;
+            transition-property: all;
+            transition-duration: 2s;
+            object-fit: cover;
+        }
+
+        figcaption {
+            height: 10%;
+            font-size: 20px;
+            font-weight: 500;
+            color: blue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition-property: all;
+            transition-duration: 2s;
+        }
+
+        .anh:hover img {
+            transform: scale(1.2);
+        }
+
+        .anh:hover figcaption {
+            color: goldenrod;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="anh">
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQbSr_3LEQJv64zuaL7auWKmZvr555y460zYg&usqp=CAU"
+                alt="anh-nghe-thuat" title="anh nghe thuat" />
+        </figure>
+        <figcaption>Ảnh nghệ thuật </figcaption>
+    </div>
+    <div class="anh">
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTs0CJHQwish6msm8Cu3XAke3uhahYgN91l7A&usqp=CAU"
+                alt="anh-dep" title="anh-dep" />
+        </figure>
+        <figcaption>ảnh đẹp</figcaption>
+
+    </div>
+    <div class="anh">
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRGCP_k7a-9jgVnP7SjWn8cwfD7GX6vD4eKqw&usqp=CAU"
+                alt="chup-anh-dep-hon-voi-zenphone" title="chup-anh-dep-hon-voi-zenphone">
+        </figure>
+        <figcaption>chụp ảnh đẹp với zenphone</figcaption>
+    </div>
+</body>
+
+</html>

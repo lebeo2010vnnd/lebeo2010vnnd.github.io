@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .doan-van-1::first-letter{
+            font-size: 50px;
+        }
+        .doan-van-1::first-line{
+            color: pink;
+        }
+        .money::before{
+            content: " Tôi ";
+        }
+
+        .money::after{
+            content: " VNĐ";
+        }
+        
+        
+        .doan-van-1::selection{
+            background-color: gold;
+            
+        }
+        .money{
+            position: relative;
+        }
+        .money::after{
+            position: absolute;
+            width: 100px;
+            height: 30px;
+            background-color: greenyellow;
+            top: 0;
+            right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="doan-van-1">Tổng thống Mỹ rời Trung tâm Quân y Quốc gia Walter Reed sau 4 ngày nhập viện vì nhiễm Covid-19
+        và trở về Nhà Trắng để tiếp tục điều trị.
+
+        Tổng thống Mỹ Donald Trump đeo khẩu trang y tế màu trắng, mặc vest màu xanh hải quân, thắt cà vạt xanh sọc trắng
+        và tự đi ra từ trung tâm quân y lúc 18h38 ngày 5/10 (5h38 ngày 6/10 giờ Hà Nội), xung quanh ông là các vệ sĩ
+        cũng đeo khẩu trang. Phóng viên đặt câu hỏi nhưng ông không trả lời và chỉ nói cảm ơn</p>
+        <p class="money">có một tờ 10000</p>
+        <p class="money">có một tờ 20000</p>
+        <p class="money">có một tờ 50000</p>
+</body>
+
+</html>

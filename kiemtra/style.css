@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: indianred;
+}
+h2{
+    
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    color: gray;
+}
+body{
+    
+    background-color: #f4f6fa;
+}
+.shadow{
+    
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    background-color: #FFF;
+    border-radius: 4px;
+}
+.gallery a{
+    text-decoration: none;
+}
+.gallery{
+    width: 80%;
+    height: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.anh1, .anh2, .anh3, .anh4, .anh5, .anh6{
+    width: 30%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white ;
+    transition-property:all ;
+    transition-duration: 1s;
+
+}
+figure{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    transition-property: all;
+    transition-duration: 2s;
+}
+figcaption{
+    text-align: center;
+    height: 20%;
+    font-size: 16px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anh1:hover{
+    border-radius: 25px;
+}
+.anh1:hover img{
+    transform: scale(1.2);
+}
+
+.anh2:hover{
+    border-radius: 25px;
+}
+.anh2:hover img{
+    transform: scale(1.2);
+}
+.anh3:hover{
+    border-radius: 25px;
+}
+.anh3:hover img{
+    transform: scale(1.2);
+}
+.anh4:hover{
+    border-radius: 25px;
+}
+.anh4:hover img{
+    transform: scale(1.2);
+}
+.anh5:hover{
+    border-radius: 25px;
+}
+.anh5:hover img{
+    transform: scale(1.2);
+}
+.anh6:hover{
+    border-radius: 25px;
+}
+.anh6:hover img{
+    transform: scale(1.2);
+}

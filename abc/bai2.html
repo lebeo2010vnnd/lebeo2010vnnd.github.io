@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bài tập hiệu ứng động</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        .login{
+            width: 100px;
+            height: 50px;
+            background-color: palegoldenrod;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            transition-duration: 2s;
+            transition-property: all;
+
+        }
+        .login:hover{
+            border-radius: 100px;
+            background-color: blueviolet;
+        }
+        .nhipdap{
+            width: 50px;
+            height: 50px;
+            animation-duration: 0.4s;
+            animation-name: change;
+            animation-iteration-count: infinite;
+            margin: 100px 100px 100px 100px;
+            animation-delay: 10ms;
+            border: none;
+            padding-bottom: 300px;
+        }
+        .anh1{
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+        }
+        @keyframes change{
+          form {
+              width: 50px;
+              height: 50px;
+          }
+          to {
+              transform: scale(1.1);
+          }
+        }
+        .abc{
+            width: 420px;
+            height: 420px;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: navajowhite;
+        }
+        figure{
+            width: 120px;
+            height: 120px;
+            margin: 10px 10px 10px 10px;
+        }
+        .acb{
+            width: 100%;
+            height: 100%;
+            transition-property: all;
+            transition-duration: 1s;
+            object-fit: cover;
+        }
+        .acb:hover{
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="login">
+        <p>L O G I N</p>
+    </div>
+    <div class="nhipdap">
+        <img class="anh1" src="https://img.sunsky-online.com/upload/store/product_l/TBD00248401A.jpg" alt="hinh trai tim">
+    </div>
+    <div class="abc">
+        <figure><img class="acb" src="https://cafebiz.cafebizcdn.vn/2018/8/6/photo-1-1533552049131447766302.png" alt="minhhoa"></figure>
+        <figure><img class="acb" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXNuIz5PeQ43LF-cRk0Rkeu6ZBME2Eze8KCg&usqp=CAU" alt="minhhoa"></figure>
+        <figure><img class="acb" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQndWkUu8mbiAOVOqUTfiUBIC6EUQCr5HaRWA&usqp=CAU" alt="minhhoa"></figure>
+        <figure><img class="acb" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHhLk_WWMo2qXfxWyBMxRFyRbZQX_2z74Mgw&usqp=CAU" alt="minhhoa"></figure>
+        <figure><img class="acb" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRRm9qHKFvy6HI1T189RxOsvONI5Hh7YOBXVQ&usqp=CAU" alt="minhhoa"></figure>
+        <figure><img class="acb" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQHQB_UwW-Zuia_DXdO7HItMxOrj6voXNdX4g&usqp=CAU" alt="minhhoa"></figure>
+        <figure><img class="acb" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRlZ_z1K9JB9MAda0USgFjuIbtwrItC0s1-JA&usqp=CAU" alt="minhhoa"></figure>
+        <figure><img class="acb" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSK4374-0s4zjevSRkznySg4ypEyNJPEzwriA&usqp=CAU" alt="minhhoa"></figure>
+        <figure><img class="acb" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTWoFHOcY8l61YfVDB-7HfyA6ocrwhXU6hHdQ&usqp=CAU" alt="minhhoa"></figure>
+    </div>
+
+</body>
+</html>

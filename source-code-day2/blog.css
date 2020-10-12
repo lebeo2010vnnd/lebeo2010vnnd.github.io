@@ -52,7 +52,11 @@ blockquote{
     font-weight: normal;
 
 }
-
+img{
+    display: block;
+    height: 50px;
+    width: 150px ;
+}
 
         
 

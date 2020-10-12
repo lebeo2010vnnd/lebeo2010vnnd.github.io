@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F0F2F5;
+}
+.container{
+    display: flex;
+    width: 80%;
+    
+    
+}
+
+.left{
+    width: 60%;
+    margin-top: 180px;
+    
+}
+.right{
+    width: 40%;
+    margin-top: 150px;
+    
+}
+input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+input :focus{
+    outline: none;
+}
+form{
+    width: 80%;
+    margin: auto;
+    padding: 25px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 6px;
+    
+}
+input{
+    
+    border-radius: 6px;
+    border: solid grey 1px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+}
+.dangnhap button{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 23px;
+    color: white;
+    padding: 0 16px;
+    width: 332px;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    color: #1877f2;
+    
+    cursor: pointer;
+}
+.signup button{
+    
+    background-color: #42b72a;
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    color: white;
+    
+}
+p{
+    color: #464646;
+}
+.ccc{
+    margin-left: 180px;
+}
+.ccc img{
+    width: 301px;
+    height: 106px;
+}
+.tit{
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-left: 195px;
+    margin-top: -30px;
+}
+.acx a{
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+.acx{
+    color: #1c1e21;
+    font-size: 15px;
+    
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+    
+

@@ -57,3 +57,8 @@ function timgido(drrs) {
     let newArray;
     
 }
+
+var number;
+number = 1;
+number ++;
+number += 10;

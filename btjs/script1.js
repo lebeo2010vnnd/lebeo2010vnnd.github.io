@@ -27,15 +27,19 @@ function viethoadaucau(str)
 
     return str.join(" ");
 }
-
-function catchuoi(str){
-    str = str.split(" ");
-}
-
 function theky(nam){
-    return Math.ceil(nam/100);
+    let theky = Math.ceil(nam/100);
+    console.log(theky);
 }
-function catchuoi(str){
-    return (`chuỗi cắt là : ${str.substring(0,10)}...`)
+function catchuoi(x){
+    let y;
+    if (typeof x == "string") {
+        y = x;
+    }
+    else{
+        y = x.toString();
+    }
+    return y.substring(0,10) + "...";
 }
+
 

@@ -18,14 +18,14 @@ function doC(doF)
 function viethoadaucau(str) 
 {
     
-    str = str.split(" ");
+    let arrays = str.split(" ");
     
 
-    for (var i = 0, x = str.length; i < x; i++) {
-        str[i] = str[i][0].toUpperCase() + str[i].substr(1).toLowerCase();
+    for (var i = 0, x = arrays.length; i < x; i++) {
+        arrays[i] = arrays[i][0].toUpperCase() + arrays[i].substr(1).toLowerCase();
     }
 
-    return str.join(" ");
+    return arrays.join(" ");
 }
 function theky(nam){
     let theky = Math.ceil(nam/100);

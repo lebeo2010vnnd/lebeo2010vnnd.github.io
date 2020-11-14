@@ -109,3 +109,10 @@ figcaption{
 .anh6:hover img{
     transform: scale(1.2);
 }
+.icon-up{
+    font-size: 60px;
+    color: pink;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}

@@ -43,10 +43,11 @@
           const keyContent = key.textContent;
           const displayedNum = display.textContent;
 
+          // sáng nút 
           Array.from(key.parentNode.children).forEach((k) =>
             k.classList.remove("is-depressed")
           );
-
+          // kiểm tra action
           if (!action) {
             console.log("number key!");
             if (

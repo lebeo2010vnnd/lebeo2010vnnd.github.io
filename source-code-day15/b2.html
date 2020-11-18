@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>noname</title>
+    <style>
+      .container {
+        background-color: bisque;
+          margin: auto;
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          max-width: 900px;
+      }
+      .block {
+        
+        width: 250px;
+        height: 200px;
+        background-color: aqua;
+        margin: 15px;
+      }
+      p{
+          text-align: center;
+          font-size: 40px;
+      }
+      @media (min-width: 768px){
+          p{
+              font-size: 40px;
+              color: brown;
+          }
+
+          .block {
+        margin: 15px;
+        height: 300px;}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="block"><p>abc</p></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+    </div>
+  </body>
+</html>

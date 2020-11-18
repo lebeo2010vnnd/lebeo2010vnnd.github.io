@@ -18,21 +18,20 @@
         
       }
       .main1{
-        background-color: bisque;
-        margin: auto;
-        max-width: 60%;
-        padding-top: 50px;
-        
-       
+        max-width: 100%;
       }
       .container2 {
         background-color: burlywood;
         margin: auto;
         display: flex;
         flex-wrap: wrap;
-        max-width: 70%;
+        max-width: 60%;
         justify-content: space-between;
        
+      }
+      .toper{
+        max-width: 100%;
+          height: 30px;
       }
       .block {
         
@@ -42,24 +41,30 @@
         margin: 7.5px;
       }
       .block21 {
-        width: 192px;
-        height: 100px;
-        background-color: aqua;
-        margin-bottom: 15px;
+        width: calc(100% / 3 - 15px);
+          height: 300px;
+          background-color: darkgreen;
+          margin-bottom: 15px;
       }
 
       .block22 {
-        width: 192px;
-        height: 100px;
-        background-color: aqua;
-        margin-bottom: 15px;
+        width: calc(100% / 3 - 15px);
+          height: 300px;
+          background-color: darkgreen;
+          margin-bottom: 15px;
       }
 
       .block23 {
-        width: 192px;
-        height: 100px;
-        background-color: aqua;
+        width: 276.83px;
+          height: 300px;
+          background-color: darkgreen;
+          
         
+      }
+      .block24{
+        width: 276.83px;
+        height: 300px;
+        background-color: darkgreen;
       }
 
 
@@ -76,13 +81,13 @@
         }
         .main1{
           max-width: 100%;
-          padding-top: 50px;
-          padding-left: 5px;
-          padding-right: 5px;
+          
+          padding-left: 15px;
+          padding-right: 15px;
           
         }
         .container2{
-          max-width: 80%;
+          max-width: 100%;
           padding-bottom: 0;
         }
         .block21{
@@ -100,9 +105,13 @@
       }
       .block23{
         width: 100%;
-        margin-top: 15px;
+        margin-bottom: 15px;
 
           height: 200px;
+      }
+      .block24{
+        width: 100%;
+        height: 200px;
       }
       }
     </style>
@@ -119,6 +128,7 @@
 
     <h1>*********</h1>
     <div class="main1">
+      <div class="toper"></div>
       <div class="container2">
         <div class="block21"></div>
         <div class="block21"></div>
@@ -128,7 +138,7 @@
         <div class="block22"></div>
         <div class="block23"></div>
         <div class="block23"></div>
-        <div class="block23"></div>
+        <div class="block24"></div>
       </div>
     </div>
   </body>

@@ -5,44 +5,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>noname</title>
     <style>
-      .container {
-        background-color: bisque;
-          margin: auto;
-          display: flex;
-          justify-content: center;
-          flex-wrap: wrap;
-          max-width: 900px;
+      * {
+        margin: 0;
       }
-      .block {
-        
-        width: 250px;
-        height: 200px;
-        background-color: aqua;
-        margin: 15px;
-      }
-      p{
+        h1{
           text-align: center;
-          font-size: 40px;
+        }
+      .container {
+        max-width: 100%;
+        display: flex;
+        padding: 15px 0px 0px 15px;
+        flex-flow: wrap row;
+        justify-content: center;
       }
-      @media (min-width: 768px){
-          p{
-              font-size: 40px;
-              color: brown;
-          }
+      .main1 {
+        max-width: 100%;
+      }
+      .container2 {
+        background-color: burlywood;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 60%;
+        justify-content: space-between;
+      }
+      .toper {
+        max-width: 100%;
+        height: 30px;
+      }
 
-          .block {
-        margin: 15px;
-        height: 300px;}
+      .block {
+        width: calc(100% / 3 - 15px);
+        height: 400px;
+        background-color: chocolate;
+        margin-right: 15px;
+        margin-bottom: 15px;
+      }
+
+      .block1 {
+        width: calc(100% / 3 - 15px);
+        height: 300px;
+        background-color: darkgreen;
+        margin-bottom: 15px;
+      }
+
+      .block2 {
+        width: calc(100% / 3 - 15px);
+        height: 300px;
+        background-color: darkgreen;
+        margin-bottom: 15px;
+      }
+
+      .block3 {
+        width: 280.02px;
+        height: 300px;
+        background-color: darkgreen;
+      }
+      .block4 {
+        width: 280.02px;
+        height: 300px;
+        background-color: darkgreen;
+      }
+
+      @media (max-width: 700px) {
+        .container {
+          padding: 20px;
+        }
+
+        .block {
+          width: 100%;
+          margin-right: 0px;
+        }
+        .main1 {
+          max-width: 100%;
+
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        .container2 {
+          max-width: 100%;
+          padding-bottom: 0;
+        }
+        .block1 {
+          width: 100%;
+          margin-bottom: 15px;
+          height: 200px;
+        }
+
+        .block2 {
+          width: 100%;
+
+          margin-bottom: 15px;
+          height: 200px;
+        }
+        .block3 {
+          width: 100%;
+          margin-bottom: 15px;
+
+          height: 200px;
+        }
+        .block4 {
+          width: 100%;
+          height: 200px;
+        }
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <div class="block"><p>abc</p></div>
       <div class="block"></div>
       <div class="block"></div>
       <div class="block"></div>
       <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+    </div>
+
+    <h1>************</h1>
+    <div class="main1">
+      <div class="toper"></div>
+      <div class="container2">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block2"></div>
+        <div class="block2"></div>
+        <div class="block2"></div>
+        <div class="block3"></div>
+        <div class="block3"></div>
+        <div class="block4"></div>
+      </div>
     </div>
   </body>
 </html>

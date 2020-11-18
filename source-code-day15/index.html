@@ -11,49 +11,99 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        max-width: 900px;
+        max-width: 60%;
         padding-bottom: 12.5px;
         padding-top: 12.5px;
+        
         
       }
       .main1{
         background-color: bisque;
         margin: auto;
-        max-width: 900px;
+        max-width: 60%;
         padding-top: 50px;
-        padding-bottom: 50px;
+        
        
       }
       .container2 {
         background-color: burlywood;
         margin: auto;
         display: flex;
-        justify-content: center;
         flex-wrap: wrap;
-        max-width: 80%;
-        
-        padding-bottom: 12.5px;
-        padding-top: 12.5px;
+        max-width: 70%;
+        justify-content: space-between;
+       
       }
       .block {
+        
         width: 265px;
         height: 200px;
         background-color: aqua;
         margin: 7.5px;
       }
-      .block2 {
-        width: 180px;
+      .block21 {
+        width: 192px;
         height: 100px;
         background-color: aqua;
-        margin: 7.5px;
+        margin-bottom: 15px;
       }
 
-      @media (max-width: 768px) {
+      .block22 {
+        width: 192px;
+        height: 100px;
+        background-color: aqua;
+        margin-bottom: 15px;
+      }
+
+      .block23 {
+        width: 192px;
+        height: 100px;
+        background-color: aqua;
+        
+      }
+
+
+      @media (max-width: 500px) {
+        .container{
+          max-width: 100%;
+          padding: 20px;
+        }
         .block {
-          margin-top: 7.5px;
+          
+          margin-top: 15px;
           margin-bottom: 7.5px;
           height: 200px;
         }
+        .main1{
+          max-width: 100%;
+          padding-top: 50px;
+          padding-left: 5px;
+          padding-right: 5px;
+          
+        }
+        .container2{
+          max-width: 80%;
+          padding-bottom: 0;
+        }
+        .block21{
+          
+         width: 100%;
+          margin-bottom: 15px;
+          height: 200px;
+        }
+      
+      .block22{
+        width: 100%;
+        
+          margin-bottom: 15px;
+          height: 200px;
+      }
+      .block23{
+        width: 100%;
+        margin-top: 15px;
+
+          height: 200px;
+      }
       }
     </style>
   </head>
@@ -70,15 +120,15 @@
     <h1>*********</h1>
     <div class="main1">
       <div class="container2">
-        <div class="block2"></div>
-        <div class="block2"></div>
-        <div class="block2"></div>
-        <div class="block2"></div>
-        <div class="block2"></div>
-        <div class="block2"></div>
-        <div class="block2"></div>
-        <div class="block2"></div>
-        <div class="block2"></div>
+        <div class="block21"></div>
+        <div class="block21"></div>
+        <div class="block21"></div>
+        <div class="block22"></div>
+        <div class="block22"></div>
+        <div class="block22"></div>
+        <div class="block23"></div>
+        <div class="block23"></div>
+        <div class="block23"></div>
       </div>
     </div>
   </body>

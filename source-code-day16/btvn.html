@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        .boss{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .container{
+            width: 60%;
+            height: 415px;
+            background-color: green;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 30px;
+            display: grid;
+            grid-gap:15px;
+            grid-template-rows: auto auto;
+            grid-template-columns: auto auto;
+        }
+        .block{
+            width: 100%;
+            height: 200px;
+            background-color: blue;
+        }
+        .container1{
+            width: calc(40% - 60px);
+            height: 700px;
+            background-color: blue;
+            margin-right: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 700px) {
+            .container{
+                
+                width: 100%;
+                
+            }
+            .container1{
+                width: 100%;
+                margin-left: 20px;
+            }
+        }
+
+
+        .container2{
+            height: 60px;
+            background-color: turquoise;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .block1 ,.block3 {
+            background-color: blue;
+            width: 90px;
+            height: 30px;
+            margin: 15px 0 15px 15px;
+        }
+        .block2{
+            width: calc(100% - 225px);
+            margin-right: 15px;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .container3{
+            width: calc(100% - 30px);
+            margin: 15px 15px 0 15px;
+            background-color: blue;
+            height: 600px;
+        }
+        @media (max-width: 700px){
+            .container2{
+                justify-content: center;
+            }
+            .block1, .block3{
+                width: 60px;
+            }
+            .block2{
+                width: 75px;
+            }
+        }
+
+        .container4{
+            height: 50px;
+            background-color: turquoise;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .block4  {
+            background-color: blue;
+            width: 90px;
+            height: 30px;
+            margin: 10px 15px 10px 15px;
+        }
+        
+        .container5{
+            width: calc(100% - 30px);
+            margin: 15px 15px 0 15px;
+            height: 600px;
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 15px;
+        }
+        .block5{
+            background-color: blue;
+            height: 400px;
+        }
+        @media (max-width: 700px){
+            .container4{
+                justify-content: center;
+            }
+            .block4 {
+                width: 60px;
+            }
+            .container5{
+                grid-template-rows: auto auto;
+                grid-template-columns: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boss">
+        <div class="container">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+        </div>
+        <div class="container1"></div>
+    </div>
+
+    <h1>************</h1>
+
+    <div class="container2">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block2">
+            <div class="block3"></div>
+        </div>
+    </div>
+    <div class="container3"></div>
+
+    <h1>************</h1>
+
+    <div class="container4">
+        <div class="block4"></div>
+        <div class="block4"></div>
+        <div class="block4">
+            
+        </div>
+    </div>
+    <div class="container5">
+        <div class="block5"></div>
+        <div class="block5"></div>
+    </div>
+
+</body>
+
+</html>

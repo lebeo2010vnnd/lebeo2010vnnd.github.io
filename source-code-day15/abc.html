@@ -1,99 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-        body{
-            margin: 0px;
-        }
-        .container2{
+  </head>
+  <style>
+    * {
+      margin: 0;
+    }
+    h1 {
+      text-align: center;
+      font-size: 50px;
+      padding-top: 20px;
+      color: whitesmoke;
+      animation-name: change-color;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
             
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin: 22.5px auto;
-            max-width: 900px;
-        }
-        .block2{
-            background-color: blue;
-            width: 30%;
-            height: 260px;
-            margin: 7.5px 15px;
-        }
-        @media (max-width: 700px){
-            .block2{
-                width: 100%;
-                height: 400px;
-                margin-left: 20px;
-                
-            }
-            .container2{
-                margin-left:5px;
-                margin-right: 5px;
-            }
-        }
+    }
+    .footer {
+      width: 100%;
+      height: 100px;
+      background-color: gray;
+      margin-top: -15px;
+      animation-name: many-color;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+    .container {
+      width: 100%;
+      display: flex;
 
+      flex-flow: wrap;
+    }   
+    .block {
+      width: calc(25% - 15px + (15px / 4));
+      height: 300px;
+      background-color: palevioletred;
+      margin-bottom: 15px;
+      margin-right: 15px;
+    }
+    
+    .block:nth-child(4n) {
+      margin-right: 0;
+    }
+    @media (max-width: 700px) {
         .container{
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            max-width: 900px;
-            margin: auto;
+            padding: 0;
+            
         }
         .block{
-            width: 30%;
-            height: 260px;
-            margin: 15px;
-            background-color: lightpink;
+            width: 100%;
+            margin-right: 0;
         }
-        
-        
-        @media (max-width :700px) {
-           
+    }
+    @keyframes change-color{
+           20%{
+               color: tomato;
+           }
+           40%{
+               color: blueviolet;
+           }
+           60%{
+               color: chartreuse;
+           }
+           80%{
+               color: burlywood;
+           }
+        }
+   
+        @keyframes many-color{
+            20%{
+                background-color: violet;
 
-            .block{
-                height: 400px;
-                width: 100%;
-                margin-left: 20px;
-                
             }
-            .container2{
-                margin-left:5px;
-                margin-right: 5px;
+            40%{
+                background-color: bisque;
+
             }
-        }   
-    </style>
-</head>
-<body>
-    <div class="container2">
-       <div class="block2"></div>
-       <div class="block2"></div>
-       <div class="block2"></div>
-       <div class="block2"></div>
-       <div class="block2"></div>
-       <div class="block2"></div>
-       <div class="block2"></div>
-       <div class="block2"></div>
-       <div class="block2"></div>
-       
-
+            60%{
+                background-color: goldenrod;
+            }
+            80%{
+                background-color: blue;
+            }
+        }
+  </style>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        </div>
+      </div>
+      <div class="footer">
+        <h1>footer</h1>
+      </div>
     </div>
-    <p>vgeveiovowoooooooooooow</p>
-
-    <br />
-
-    <div class="container">
-        <div class="block">
-            
-        </div>
-        <div class="block">
-            
-        </div>
-        <div class="block">
-           
-        </div>
-    </div>
-</body>
+  </body>
 </html>

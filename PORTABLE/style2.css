@@ -1,0 +1,112 @@
+@font-face {
+    src: url("../PORTABLE/font/PlayfairDisplay-Regular.ttf") format("truetype") ; 
+    src: url("../PORTABLE/font/PlayfairDisplay-Regular.eot?#iefix") format("embedded-opentype")
+    url("../PORTABLE/font/PlayfairDisplay-Regular.woff") format("woff");
+          
+  
+    font-family: "playfair";
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face{
+      src: url("../PORTABLE/font/Inconsolata-Regular.ttf") format("truetype") ; 
+      src: url("../PORTABLE/font/Inconsolata-Regular.eot?#iefix") format("embedded-opentype")
+      url("../PORTABLE/font/Inconsolata-Regular.woff") format("woff");
+      font-family: "inconsolata";
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face{
+    src: url("../PORTABLE/font/Ubuntu-Light.ttf") format("truetype");
+    src: url("../PORTABLE/font/Ubuntu-Light.eot?#iefix") format("embedded-opentype")
+    url("../PORTABLE/font/Ubuntu-Light.woff") format("woff");
+    font-family: "untubu";
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  *::selection{
+    background: #B5BABE;
+    color: white;
+  }
+  
+  body{
+    font-family: "playfair";
+    font-size: 14px;
+    color: #626262;
+    line-height: 24px;
+  }
+  
+  .navbar-brand{
+    font-family: "inconsolata";
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 5px;
+  }
+  
+  .navbar{
+    padding: 70px 0px 70px;
+  }
+  
+  ul{
+    margin-left: auto;
+  }
+  
+  .bg-light{
+    background-color: white !important;
+  }
+  
+  .navbar-expand-lg .navbar-nav .nav-link{
+    padding: 10px 0px 10px 105px;
+  }
+  .img-responsive{
+    padding-bottom: 95px;
+    max-width: 100%;
+  }
+  
+  .row{
+    margin: 0px 48px;
+  }
+  
+  h6{
+    font-family: "untubu";
+    font-size: 14px;
+    color: #b4ad9e;
+  }
+  
+  h2{
+    font-size: 30px;
+    margin: 28px 0px 30px 0px;
+  }
+  
+  .intro>p{
+    padding-bottom: 36px;
+  }
+  
+  .intro, .item{
+    margin-bottom: 130px;
+  }
+  
+  .col-md-6>a{
+    text-decoration: none;
+    color: #626262;
+  }
+  
+  .col-md-6>a:hover{
+    color: #000000;
+  }
+  
+  .col-md-6{
+    margin-bottom: 130px;
+  }
+  
+  .thumbnail img{
+    margin-bottom: 30px;
+  }
+  
+  
+  
+  .container-fluid{
+    background-color: #f0f0f0;
+    padding-top: 70px;
+  }  

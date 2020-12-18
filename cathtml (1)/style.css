@@ -15,6 +15,7 @@ h1 {
   line-height: 24px;
   margin-top: 70px;
   margin-bottom: 70px;
+  font-family: myriad-relugar;
 }
 li {
   list-style-type: none;
@@ -36,10 +37,13 @@ li {
 .noidung,
 .tieude {
   margin-top: 30px;
+  list-style-type: none;
+  
 }
 p {
   line-height: 24px;
   font-size: 14px;
+  text-decoration: none;
 }
 .anhblog {
   width: 420px;
@@ -82,6 +86,11 @@ input {
   font-family: ligth;
   src: url("../cathtml/FONTS/Ubuntu/Ubuntu-Light.ttf");
 }
+@font-face{
+    font-family: myriad-relugar;
+    src: url("../cathtml/FONTS/Myriad\ Pro\ Regular/MyriadPro-Relugar.ttf");
+}
+
 .fontchu {
   font-family: regular;
 }
@@ -97,5 +106,22 @@ blockquote{
     line-height: 24px;
     margin: 60px 20px 30px 20px;
 }
-
-
+.icon-share{
+    width: 200px;
+    height: 20px;
+}
+.li-2{
+    margin-left: 20px;
+}
+input:focus{
+    border: solid 1px silver;
+}
+li:hover{
+    background-color: silver;
+}
+.loadmore{
+    background-color: white;
+}
+.loadmore:hover{
+    background-color: silver;
+}

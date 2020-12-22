@@ -58,8 +58,6 @@ function tongcacso(n) {
   return tong;
 }
 
-
-
 function spinalcase(chuoi) {
   var string,
     Chuoimoi,
@@ -84,8 +82,19 @@ function spinalcase(chuoi) {
   return Chuoimoi;
 }
 
-function Spinal(str){
-    str = str.toLowerCase();
-    str = str.replace(/ /g, "-");
-    return str;
+function Spinal(str) {
+  str = str.toLowerCase();
+  str = str.replace(/ /g, "-");
+  return str;
+}
+
+function reverseString(str) {
+  str = str.replace(/ /g, "");
+  str = str.toLowerCase();
+  for (let i = 0; i < str.length / 2; i++) {
+    if (str[i] !== str[str.length - i - 1]) {
+      return false;
+    }
+  }
+  return true;
 }

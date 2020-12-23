@@ -44,10 +44,8 @@ function mang2chieu(m, n) {
 
     if (y != 0 && y % 2 == 1) {
       mangKetQua[y] = mangCon.reverse();
-      
     } else {
       mangKetQua[y] = mangCon;
-      
     }
   }
 
@@ -108,6 +106,8 @@ people.sort(function tentuoi(a, b) {
 });
 console.log("bangchucai", people);
 
-function filterByName(arr) {
-  return arr.filter((people) => people.name.charAt(0).toUpperCase() == "H");
+function timTen() {
+  return (newArray = arr.filter(
+    (a) => a.name.substring(0, 1) == "H" || a.name.substring(0, 1) == "h"
+  ));
 }

@@ -81,16 +81,20 @@
                             <a href="" id="deleteO"><i class="fas fa-trash-alt"></i>Xóa </a>
                         </td>
                           </tr> `;
-          $('#deleteO').click(function () {
-            $.ajax({
-              method: "DELETE",
-              url: `http://localhost:3000/users + ${data[i].id}`
-            })
-          });
         }
 
         $('.student').html(student);
       });
+      function delStu(id){
+          $.ajax({
+              method: "DELETE",
+              url: `https://leducanh123.herokuapp.com/users/${id}`
+          })
+          .done(function(){
+              $('this').remove();
+          })
+          location.herf = "index.html";
+      }
     // chỉnh sửa thông tin người dùng
     // $('#save').click(function () {
     //   $.ajax({
